@@ -1,0 +1,32 @@
+#!/bin/sh
+
+B_CYAN='\033[1;36m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+RED='\033[0;31m'
+YELLOW='\033[0;33m'
+
+echo ""
+echo "${B_CYAN}Conventional Commit Cheatsheet${NC}"
+echo ""
+echo "${B_CYAN}STRUCTURE${NC}"
+echo "  ${RED}<type>${YELLOW}[optional scope]${RED}: <description>${NC}"
+echo ""
+echo "  ${YELLOW}[optional body]${NC}"
+echo ""
+echo "  ${YELLOW}[optional footer(s)]${NC}"
+echo ""
+echo "${B_CYAN}TYPES${NC}"
+echo "  build, chore, ci, docs, feat, fix, perf, refactor, style, test"
+echo ""
+echo "${B_CYAN}EXAMPLES${NC}"
+echo "  - ${CYAN}Commit message with no body${NC}"
+echo "    ${RED}docs: correct spelling of CHANGELOG${NC}"
+echo ""
+echo "  - ${CYAN}Commit message with scope${NC}"
+echo "    ${RED}feat(lang): add polish language${NC}"
+echo ""
+echo "  - ${CYAN}Commit message with both '!' and breaking change footer${NC}"
+echo "    ${RED}refactor!: drop support for Node 6{NC}"
+echo ""
+echo "    ${YELLOW}BREAKING CHANGE: refactor to use JavaScript features not available in Node 6.${NC}"
