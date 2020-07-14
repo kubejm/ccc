@@ -12,7 +12,7 @@ sudo sh -c "curl https://raw.githubusercontent.com/kubejm/ccc/master/ccc \
 
 ## Usage
 
-```sh
+```
 ➜ ccc
 
 Conventional Commit Cheatsheet
