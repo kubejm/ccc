@@ -5,7 +5,9 @@ Quick reference for the [conventional commit](https://www.conventionalcommits.or
 ## Install
 
 ```sh
-sudo sh -c "curl https://raw.githubusercontent.com/kubejm/ccc/master/ccc -o /usr/local/bin/ccc && chmod +x /usr/local/bin/ccc"
+sudo sh -c "curl https://raw.githubusercontent.com/kubejm/ccc/master/ccc \
+       -o /usr/local/bin/ccc && \
+       chmod +x /usr/local/bin/ccc"
 ```
 
 ## Usage
