@@ -1,4 +1,4 @@
-# Conventional Commit Cheatsheet (ccc)
+# ccc (Conventional Commit Cheatsheet)
 
 Quick reference for the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) specification
 
